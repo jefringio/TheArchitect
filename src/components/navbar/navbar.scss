@@ -1,0 +1,29 @@
+.mainnav {
+
+    &__brand-a {
+        font-weight: 300;
+        font-family: 'Mukta', sans-serif;
+        font-size: 30px;
+        line-height: 0.69;
+        padding-left: 30px;
+    }
+    &__brand {
+        font-size: 60px;
+        
+    }
+    &__navbar-ul {
+        // color: white !important;    
+        float: right !important;
+        height: 70px; 
+    }
+    &__navbar-ul-li {
+        padding-left: 20px;
+    }
+    &__navbar-ul-li-a {
+        color: white !important;
+        font-weight: 200;
+    }
+    &__underline{
+        text-decoration: underline;
+    }
+}

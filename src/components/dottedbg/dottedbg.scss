@@ -1,0 +1,50 @@
+.dottedbg{
+    // background-color: green;
+    height: 645px;
+    background-image: radial-gradient(#727070 10%, #353535 15%);
+    background-position: 0 0;
+    background-size: 20px 20px;
+    width: 100%;
+    &__inner-image{
+        width: 100%;
+        // padding: 35px;
+        max-height: 440px
+        
+    }
+    &__main-container{
+        position: absolute;
+        // background-color: black;
+        color: white;
+        margin-top: 100px;
+        height: 440px;
+        width: 60.5%;    
+        margin-bottom: 100px; 
+        left: 205px; 
+        right: 205px;
+        
+        
+    }
+    &__left-col{
+        padding: 70px;
+        background-color: black;
+    
+    }
+    &__p{
+        padding-top: 30px;
+    }
+    &__right-col{
+        padding: 0px;
+    }
+    // @media (max-width:991px){
+    //     &__main-container{
+    //         height: 200px;
+    //     }
+    //     &__inner-image{
+    //         // width: 100%;
+    //         // padding: 35px;
+    //         max-height: 240px
+            
+    //     }
+    // }
+
+} 
