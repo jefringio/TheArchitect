@@ -1,3 +1,30 @@
 .foot{
     background-color: #EBEBE8;
+    padding: 70px 0px 70px 0px;
+    &__row{
+         display: flex;
+        // padding: 0px 300px 0px 200px;
+        justify-content: center;
+       
+    }
+    &__image{
+        padding: 2px;
+
+    }
+    &__menu{
+        list-style: none;
+        padding: 0;
+    }
+    &__h4{
+        padding-bottom: 30px
+    }
+    &__p{
+        font-size: 10px;
+    }
+    &__li{
+        text-align: left ;
+    }
+    &__copyright{
+        padding: 0px 100px 0px 100px;
+    }
 }

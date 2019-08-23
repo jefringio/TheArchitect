@@ -1,0 +1,47 @@
+
+.carousels{
+    &__h1{
+        padding: 210px;
+    }
+
+    &__p{
+        bottom: 30px;
+    }
+
+.container{
+    position: fixed;
+    // top: 98px;
+    z-index: 1;
+    color: white;
+}
+
+
+
+
+.carousel-indicators 
+{   padding-left: 60px;
+    justify-content: flex-start;
+    
+    li{
+        text-indent:0;
+        width:50px;
+        height: 65px;
+        background-color: transparent;
+        a{
+            color: white;
+            font-size:1.33rem;
+            text-decoration: none;
+            
+        }
+       
+        
+    }
+    .active{
+        a{
+            // font-weight: bold;
+            border-bottom: 2px solid white;
+            padding-bottom: 7px;
+        }
+    }
+}
+}
