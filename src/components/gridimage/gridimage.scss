@@ -1,0 +1,20 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "sm-ab-v big big sm-r-t" "vert big big sm-r-2" "vert sma-bot horizintal horizintal";
+}
+
+.sm-ab-v { grid-area: sm-ab-v; }
+
+.big { grid-area: big; }
+
+.sm-r-t { grid-area: sm-r-t; }
+
+.sm-r-2 { grid-area: sm-r-2; }
+
+.horizintal { grid-area: horizintal; }
+
+.sma-bot { grid-area: sma-bot; }
+
+.vert { grid-area: vert; }

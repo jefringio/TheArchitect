@@ -1,1 +1,59 @@
+//- .vid-modal
+//-     ul.vid-modal__ul
+//-         li.vid-modal__li
+//-             h3.vid-modal__h3 Watch the video
+//-                 br
+//-                 | presentation
+//-         li.vid-modal__li
+//-             button.vid-modal__btn(type='button' data-toggle='modal' data-target='#exampleModal')
+//-                 span.vid-modal__playbtn &#9656;
+//-             // Modal
+//-             #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+//-                 .modal-dialog(role='document')
+//-                     .modal-content
+//-                         .modal-header
+//-                             h5#exampleModalLabel.modal-title Video presentation
+//-                             button.close(type='button' data-dismiss='modal' aria-label='Close')
+//-                                 span(aria-hidden='true') &times;
+//-                         .modal-body
+//-                             iframe(style="width:560px; height:315px;" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay")
+
+
+            
+//-         li.vid-modal__li.vid-modal__li--padding-less
+//-             p.vid-modal__p Lorem ipsum dolor sit amet, consectetu adipisicing elit,
+//-                 br
+//-                 | sed do eiusmod tempor incididunt ut labore et dolore
+//-                 br
+//-                 | magna aliqua.
+    
     iframe(style="width:560px; height:315px;" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay")
+    
+.vid-modal
+    .container.vid-modal__container
+        .row(style="margin:opx;").vid-modal__row
+            .col-md-3.vid-modal__one
+                h3.vid-modal__h3 
+                    |Watch the video
+                    br
+                    | presentation
+            .col-md-3.vid-modal__two.text-center
+                button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal')
+                    span.vid-modal__playbtn &#9656;
+                #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
+                    .modal-dialog(role='document')
+                        .modal-content
+                            .modal-header
+                                h5#exampleModalLabel.modal-title Video Presentation
+                                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                                span(aria-hidden='true') &times;
+                            .modal-body
+                                iframe(style="width:460px; height:315px;" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay") 
+
+            .col-md-4.vid-modal__three
+                 p.vid-modal__p
+                    |Lorem ipsum dolor sit amet, consectetu adipisicing elit,
+                    br
+                    | sed do eiusmod tempor incididunt ut labore et dolore
+                    br
+                    | magna aliqua.

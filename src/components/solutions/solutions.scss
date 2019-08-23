@@ -1,0 +1,28 @@
+.solutions{
+    background-color: rgb(236,235,233);
+    &__main-container{
+        padding: 80px 0px 70px 0px
+    }
+    &__h2{
+        line-height: 1;
+    }
+    &__image{
+        width: 100px;
+    }
+    &__li{
+        display: inline-block;
+        padding: 25px;
+        font-size: 15px;
+    }
+    &__ul{
+        padding: 35px 175px 35px 175px;
+        // display: inline-flex;
+    }
+    &__sub{
+        padding-top: 30px;
+    }
+
+    @media (max-width:1200px){
+
+    }
+}

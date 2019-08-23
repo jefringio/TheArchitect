@@ -1,0 +1,33 @@
+    
+.vid-modal{
+    background-color: rgb(236,235,233);
+    &__h3{
+        text-align: center ;
+        font-size: 1.5rem
+    }
+    &__container{
+        
+        justify-content: center;
+        height: 200px;
+    }
+    &__row{
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    &__playbtn{
+        padding: 5px 13px;
+        font-size: 2rem;
+        border: 2px solid;
+        border-radius: 50%;
+    }
+    &__btn{
+        background: none;
+        border: none;
+    }
+    
+    &__p{
+        font-size: .8rem;
+    }
+
+}
