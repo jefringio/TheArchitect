@@ -1,28 +1,54 @@
 .vision{
-    display: flex;
-    padding: 0px;
+    // display: flex;
+    // padding: 0px;
     // background-color: aqua;
-    height: 400px;
-    &__container-one{
+    // height: 400px;
+    &__container{
+        width: 40%;
+        padding: 120px 0px 120px 0px;
+    }
+    &__col-one{
         background-image: radial-gradient(#727070 9%, #5e5c5c 15%);
         background-position: 0 0;
         background-size: 20px 20px;
+        padding: 0px;
     }
-    &__container-two{
-        padding: 0px!important;
-        
+    &__col-two{
+        padding: 0px;
     }
+    
     &__images{
         width: 100%;
-        height: 90%;
+        height: 90%;  
+    }
+    &__a{
+        color: white;
+        font-size: 1.33rem;
+        text-decoration: underline;
         
     }
-    &__inner-container{
-         padding: 10% 35% 10% 35%;
-        text-align: left;
-        display: inline-block;
+    &__a:hover{
+        color: white;
     }
     &__h3{
-        padding-bottom: 20px;
+        padding-bottom: 40px;
+        color: white!important;
+        font-size: 2.33rem;
+        // padding: 100px 130px 70px 130px;
+        justify-content: flex-start !important;
+
+    }
+    @media (max-width:767px){
+        &__container{
+            padding: 30px 70px 30px 80px;
+            width: 100%;
+        }
+
+    }
+    @media (min-width:767px) and (max-width:1024px){
+        &__container{
+            padding: 100px 30px 100px 70px;
+            width: 80%;
+        }
     }
 }

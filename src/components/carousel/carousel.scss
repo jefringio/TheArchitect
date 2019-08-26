@@ -1,47 +1,99 @@
 
-.carousels{
+.slider{
     &__h1{
         padding: 210px;
     }
 
     &__p{
-        bottom: 30px;
+        word-spacing: 5px;
+        // position: fixed;
+        top: 89%;
+        left: 64%;
+        // float: right;
     }
-
-.container{
-    position: fixed;
-    // top: 98px;
-    z-index: 1;
-    color: white;
-}
-
-
-
-
-.carousel-indicators 
-{   padding-left: 60px;
-    justify-content: flex-start;
-    
-    li{
-        text-indent:0;
-        width:50px;
-        height: 65px;
-        background-color: transparent;
-        a{
-            color: white;
-            font-size:1.33rem;
-            text-decoration: none;
-            
-        }
-       
+    &__span-p {
+        padding-bottom: 7px;
+        border-bottom: 2px solid white;
         
     }
-    .active{
-        a{
-            // font-weight: bold;
-            border-bottom: 2px solid white;
-            padding-bottom: 7px;
+
+    &__article{
+        position: absolute;
+        // top: 98px;
+        z-index: 1;
+        color: white;
+        padding-left: 30px;
+        // padding-right: 100px;
+    }
+
+
+    &__link{
+        color: white;
+        font-size:1.33rem;
+        text-decoration: none;
+        
+    }
+
+    .carousel-indicators 
+    {   padding-left: 60px;
+        justify-content: flex-start;
+        
+        li{
+            text-indent:0;
+            width:50px;
+            height: 65px;
+            background-color: transparent;      
+        }
+        .active{
+            a{
+                // font-weight: bold;
+                border-bottom: 2px solid white;
+                padding-bottom: 7px;
+            }
         }
     }
-}
+    @media (min-width:768px) and (max-width:1024px){
+        &__article{
+            font-size: 10px;
+
+        }
+        &__h1{
+            padding: 13vw;
+            font-size: 5vw;
+        }
+        &__hide-mob{
+            display: none;
+        }
+    }
+    @media (max-width:768px){
+        &__article{
+            // font-size: 10px;
+
+        }
+        &__link{
+            // color: white;
+            font-size:3vw;
+            // text-decoration: none;
+            
+        }
+        &__h1{
+            padding: 13vw;
+            font-size: 5vw;
+        }
+        &__hide-mob{
+            display: none;
+        }
+        .carousel-indicators  { 
+            padding-left: 20vw;
+            justify-content: flex-start;
+            padding-right: 20vw;
+        
+        li{
+           
+            width:10vw;
+            height: 6vw;     
+        }
+        
+    }
+    }
 }

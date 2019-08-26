@@ -32,12 +32,12 @@
 .vid-modal
     .container.vid-modal__container
         .row(style="margin:opx;").vid-modal__row
-            .col-md-3.vid-modal__one
+            .col-md-3.vid-modal__one.vid-modal__col
                 h3.vid-modal__h3 
                     |Watch the video
                     br
                     | presentation
-            .col-md-3.vid-modal__two.text-center
+            .col-md-3.vid-modal__two.text-center.vid-modal__col
                 button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal')
                     span.vid-modal__playbtn &#9656;
                 #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
@@ -48,12 +48,10 @@
                                 button.close(type='button' data-dismiss='modal' aria-label='Close')
                                 span(aria-hidden='true') &times;
                             .modal-body
-                                iframe(style="width:460px; height:315px;" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay") 
-
-            .col-md-4.vid-modal__three
-                 p.vid-modal__p
-                    |Lorem ipsum dolor sit amet, consectetu adipisicing elit,
-                    br
-                    | sed do eiusmod tempor incididunt ut labore et dolore
-                    br
-                    | magna aliqua.
+                                iframe.vid-modal__iframe(style="" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay") 
+               
+            .col-md-4.vid-modal__three.vid-modal__col
+                p.vid-modal__p
+                |Lorem ipsum dolor sit amet, consectetu adipisicing elit,
+                | sed do eiusmod tempor incididunt ut labore et dolore
+                | magna aliqua.

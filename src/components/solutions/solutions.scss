@@ -9,20 +9,18 @@
     &__image{
         width: 100px;
     }
-    &__li{
-        display: inline-block;
-        padding: 25px;
-        font-size: 15px;
-    }
-    &__ul{
-        padding: 35px 175px 35px 175px;
-        // display: inline-flex;
-    }
+    
     &__sub{
         padding-top: 30px;
     }
+    &__inner-container{
+        padding: 100px;
+    }
 
-    @media (max-width:1200px){
+    @media (max-width:768px){
+        &__inner-container{
+            padding-top: 50px;
+        }
 
     }
 }
