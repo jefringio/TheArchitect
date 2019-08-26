@@ -1,37 +1,49 @@
 
 .slider{
-    &__h1{
-        padding: 210px;
+    &__line{
+        position: absolute;
+        bottom: 7vw;
+        width: 10vw;
+        right: 45vw;
+        border-top: 2px solid white;
+    }
+    &__article{
+        position: absolute;
+        // top: 98px;
+        z-index: 1;
+        color: white;
+        left: 20vw; 
+        top: 14vw;
+        // padding-right: 100px;
+    }
+    &__p {
+        word-spacing: 5px;
+        position: absolute;
+        right: 14vw;
+        bottom: 7vw;
+        color: white;
     }
 
-    &__p{
-        word-spacing: 5px;
-        // position: fixed;
-        top: 89%;
-        left: 64%;
-        // float: right;
-    }
     &__span-p {
         padding-bottom: 7px;
         border-bottom: 2px solid white;
         
     }
 
-    &__article{
-        position: absolute;
-        // top: 98px;
-        z-index: 1;
-        color: white;
-        padding-left: 30px;
-        // padding-right: 100px;
-    }
-
-
     &__link{
         color: white;
         font-size:1.33rem;
         text-decoration: none;
         
+    }
+
+    &__list {
+        position: absolute;
+        left: 21vw;
+        bottom: 4.5vw;
+        margin: 0;
+        padding: 0 !important;
+        width: fit-content;
     }
 
     .carousel-indicators 
@@ -54,46 +66,108 @@
     }
     @media (min-width:768px) and (max-width:1024px){
         &__article{
-            font-size: 10px;
+           left: 14vw;
+        }
 
-        }
         &__h1{
-            padding: 13vw;
-            font-size: 5vw;
+            // padding: 13vw;
+            font-size: 2rem;
         }
-        &__hide-mob{
-            display: none;
-        }
-    }
-    @media (max-width:768px){
-        &__article{
-            // font-size: 10px;
 
+        &__list {
+            left: 16vw;
         }
-        &__link{
-            // color: white;
-            font-size:3vw;
-            // text-decoration: none;
-            
-        }
-        &__h1{
-            padding: 13vw;
-            font-size: 5vw;
-        }
-        &__hide-mob{
-            display: none;
-        }
-        .carousel-indicators  { 
-            padding-left: 20vw;
-            justify-content: flex-start;
-            padding-right: 20vw;
+        .carousel-indicators 
+    {   padding-left: 60px;
+        justify-content: flex-start;
         
         li{
-           
-            width:10vw;
-            height: 6vw;     
+            text-indent:0;
+            width:50px;
+            height: 65px;
+            background-color: transparent;      
         }
-        
     }
+}
+
+    @media (min-width:436px) and(max-width:767px){
+        &__hide-mob{
+            display: none;
+        }
+        &__article{
+            // font-size: 10px;
+            top: 7vw;
+            left: 5vw;
+        }
+
+        &__link{
+            // color: white;
+            font-size:5vw;     
+        }
+
+        &__p{
+            right: 5vw;
+            bottom: 1vw;
+        }
+        &__list {
+            left: 9vw;
+            bottom: -2vw;
+            width: 30vw;
+        }
+        &__h1{
+            // padding: 13vw;
+            font-size: 5vw;
+        } 
+        .carousel-indicators{
+            padding-left: 60px;
+            justify-content: flex-start;
+        
+            li{
+                text-indent:0;
+                width:50px;
+                height: 65px;
+                background-color: transparent;      
+            }  
+        }
+    }
+    @media(max-width:436px){
+        &__hide-mob{
+            display: none;
+        }
+        &__article{
+            left: 5vw;
+            top: 5vw;
+        }
+        &__list{
+            left: 9vw;
+            bottom: 1vw;
+            width: 25vw;
+            font-size: 0.9rem;
+            
+        }
+        &__link{
+            font-size: 1rem;
+        }
+        &__h1{
+            // padding: 13vw;
+            
+            font-size: 1.3rem;
+        }
+        &__p{
+            right: 5vw;
+            bottom: 1vw;
+            font-size: .9rem;
+           
+        }
+        .carousel-indicators {
+            
+        
+            li{
+                text-indent:0;
+                
+                height: 10vw;
+                background-color: transparent;      
+            }
+        }
     }
 }

@@ -1,43 +1,46 @@
 footer.foot
-    .row(style="margin:0;").foot__row
-            .col-md-3
-                ul.foot__menu
-                    li.foot__li
-                        h4.foot__h4 Find us here  
-                    li.foot__li
-                        img.foot__image(src="../../images/facebook.webp")
-                        img.foot__image(src="../../images/twitter.webp")
-                        img.foot__image(src="../../images/linkedin.webp")
+    .container.foot__container
+        .row(style="margin:0;").foot__row-one   
+                .col-md-4.text-center.foot__col
+                    ul.foot__menu
+                        li.foot__li
+                            h4.foot__h4 Find us here  
+                        li.foot__li
+                            img.foot__image(src="../../images/facebook.webp")
+                            img.foot__image(src="../../images/twitter.webp")
+                            img.foot__image(src="../../images/linkedin.webp")
 
-                         
-            .col-md-3
-                ul.foot__menu
-                    li.foot__li
-                        h4.foot__h4 Contact with us
-                    li.foot__li
-                        p.foot__p 
-                            |Nullam viverra consectetuer
-                            br
-                            | quisque cursus et, porttitor risus.
-                    
-                        p.foot__p +61 (0) 3 8376 6284
-                        p.foot__p noreply@cursus.com
-                    
+                            
+                .col-md-4.text-center.foot__col
+                    ul.foot__menu
+                        li.foot__li
+                            h4.foot__h4 Contact with us
+                        li.foot__li
+                            p.foot__p 
+                                |Nullam viverra consectetuer
+                                br
+                                | quisque cursus et, porttitor risus.
+                        
+                            p.foot__p +61 (0) 3 8376 6284
+                            p.foot__p noreply@cursus.com
+                        
 
-            .col-md-3
-                ul.foot__menu
-                    li.foot__li
-                        h4.foot__h4 Localization
-                    li.foot__li
-                        address.foot__p Nullam
-                            br
-                            | Level 13, 2 Elizabeth
-                            br
-                            | Victoria 3000
-                            br
-                            | Australia
+                .col-md-4.text-center.foot__col
+                    ul.foot__menu
+                        li.foot__li
+                            h4.foot__h4 Localization
+                        li.foot__li
+                            address.foot__p Nullam
+                                br
+                                | Level 13, 2 Elizabeth
+                                br
+                                | Victoria 3000
+                                br
+                                | Australia
 
-    .row(style="margin:0;")
-        .col-md-9.foot__copyright
-            p.foot__p   
-                |&copy; 2019 Nullam viverra consectetuer.All Rights Reserved.   
+        .row(style="margin:0;").foot__row-two
+            .col-md-11.foot__copyright
+                p.foot__p   
+                    |&copy; 2019 Nullam viverra consectetuer.All Rights Reserved.   
+        .foot__uparrow-col
+            a.foot__uparrow( href="#mainnavbar") &#710;
