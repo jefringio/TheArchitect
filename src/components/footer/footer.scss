@@ -1,6 +1,6 @@
 .foot{
     background-color: #EBEBE8;
-    // padding: 70px 0px 70px 0px;
+    padding: 60px 0px 50px 0px;
     &__container{
         // padding-left: 100px;
     }
@@ -37,14 +37,16 @@
         text-align: left;
     }
     &__uparrow{
-        font-size: 80px;
+        font-size: 60px;
         color: rgb(84, 83, 81)!important;
         text-decoration: transparent;
+        
 
     }
     &__uparrow-col{
         text-align: right;
         // padding: 25px;
+         margin-top: -50px;
         
 
     }
@@ -67,8 +69,9 @@
             padding-bottom:10px; 
         }
         &__uparrow-col{
-            text-align: right;
+            text-align: center;
             // padding: 25px;
+            margin: 0px;
         }
     }
 }
