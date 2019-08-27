@@ -13,19 +13,23 @@
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
     &__brand-a {
-        font-weight: 300;
-        font-family: 'Mukta', sans-serif;
-        font-size: 30px;
-        line-height: 0.69;
+        font-weight: 500;
+        // font-family: 'Mukta', sans-serif;
+        font-size: 35px;
+        line-height: 0.74;
         padding-left: 30px;
         color: white;
+        // font-family: 'Raleway', sans-serif;
+        
 
     }
     &__brand-a:hover{
         color: white;
     }
     &__brand {
-        font-size: 60px;
+        font-size: 53px;
+        padding-left: 2px;
+       
         
     }
     &__idnav{

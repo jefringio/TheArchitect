@@ -1,6 +1,6 @@
 .foot{
     background-color: #EBEBE8;
-    padding: 60px 0px 50px 0px;
+    padding: 40px 0px 0px 0px;
     &__container{
         // padding-left: 100px;
     }
@@ -25,19 +25,21 @@
         padding: 0;
     }
     &__h4{
-        padding-bottom: 30px
+        padding-bottom: 30px;
+        font-family: 'Raleway', sans-serif;
     }
     &__p{
         font-size: 13px;
         text-align: left !important;
+        
         // padding: 0px 0px 0px 80px;
 		}
 		&__content-container {
-			padding: 0px 0px 0px 103px;
+			padding: 0px 0px 0px 111px;
 
 		}
 		&__content-container1 {
-			padding: 0px 0px 0px 121px;
+			padding: 0px 0px 0px 129px;
 
 		}
     &__li{

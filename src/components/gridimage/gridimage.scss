@@ -5,7 +5,9 @@
 
   &__heading{
     padding: 50px;
-    word-spacing: 4px;
+    // word-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 
   }
   &__button{
@@ -15,9 +17,10 @@
   &__btn{
     background-color: 	#383735;
     border: 0px transparent;;
-    font-size: 18px;
-    padding: 8px 75px 8px 75px;
+    font-size: 13px;
+    padding: 8px 90px 8px 90px;
     color: white;
+    outline: none!important;
   }
 
   &__grid-container * { 

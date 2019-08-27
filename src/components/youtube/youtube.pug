@@ -38,14 +38,14 @@
                     br
                     | presentation
             .col-md-4.vid-modal__two.text-center.vid-modal__col
-                button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal' data-src="https://www.youtube.com/embed/gB1gPmtDohY")
+                button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal' data-src="https://www.youtube.com/embed/On7kFBz25mU")
                     span.vid-modal__playbtn &#9656;
                 #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true' )
                     .modal-dialog(role='document' )
-                        .modal-content(style="background-color:transparent;")
-                            .modal-header
+                        .modal-content(style="background-color: #383735;")
+                            .modal-header(style="color:white!important;")
                                 h5#exampleModalLabel.modal-title 
-                                button.close(type='button' data-dismiss='modal' aria-label='Close')
+                                button.close(type='button' data-dismiss='modal' aria-label='Close' style="outline: none!important; color:white!important;" )
                                 span(aria-hidden='true') &times;
                             .modal-body
                                 iframe.vid-modal__iframe( src="" frameborder="0" allowscriptaccess="always" allowfullscreen="" allow="autoplay") 

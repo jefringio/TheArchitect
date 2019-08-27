@@ -1,20 +1,23 @@
 .solutions{
     background-color: rgb(236,235,233);
     &__main-container{
-        padding: 80px 0px 70px 0px
+        padding: 80px 0px 20px 0px
     }
     &__h2{
         line-height: 1;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
     }
     &__image{
-        width: 100px;
+        width: 60px;
     }
     
     &__sub{
         padding-top: 30px;
+        font-weight: 620;
     }
     &__inner-container{
-        padding: 100px;
+        padding: 80px 100px 100px 80px;
     }
 
     @media (max-width:768px){
@@ -24,6 +27,11 @@
         &__main-container{
             padding-bottom: 0px;
         }
-
+        &__h2{
+            padding: 10px;
+        }
+        &__inner-container{
+            padding: 80px 35px 80px 35px;
+        }
     }
 }
