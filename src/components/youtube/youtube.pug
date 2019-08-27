@@ -38,20 +38,21 @@
                     br
                     | presentation
             .col-md-4.vid-modal__two.text-center.vid-modal__col
-                button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal')
+                button.vid-modal__btn(type='button'  data-toggle='modal' data-target='#exampleModal' data-src="https://www.youtube.com/embed/gB1gPmtDohY")
                     span.vid-modal__playbtn &#9656;
-                #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true')
-                    .modal-dialog(role='document')
-                        .modal-content
+                #exampleModal.modal.fade(tabindex='-1' role='dialog' aria-labelledby='exampleModalLabel' aria-hidden='true' )
+                    .modal-dialog(role='document' )
+                        .modal-content(style="background-color:transparent;")
                             .modal-header
-                                h5#exampleModalLabel.modal-title Video Presentation
+                                h5#exampleModalLabel.modal-title 
                                 button.close(type='button' data-dismiss='modal' aria-label='Close')
                                 span(aria-hidden='true') &times;
                             .modal-body
-                                iframe.vid-modal__iframe(style="" src="https://www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen="" allow="autoplay") 
+                                iframe.vid-modal__iframe( src="" frameborder="0" allowscriptaccess="always" allowfullscreen="" allow="autoplay") 
                
             .col-md-4.vid-modal__three.vid-modal__col
                 p.vid-modal__p
                 |Lorem ipsum dolor sit amet, consectetu adipisicing elit,
-                | sed do eiusmod tempor incididunt ut labore et dolore
+                | sed do eiusmod tempor incididunt ut labore et dolore 
                 | magna aliqua.
+//- ?autoplay=1 allow="autoplay"

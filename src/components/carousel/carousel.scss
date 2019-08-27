@@ -36,6 +36,10 @@
         text-decoration: none;
         
     }
+    &__link:hover {
+        color: white;
+        text-decoration: none;
+    }
 
     &__list {
         position: absolute;
@@ -108,7 +112,7 @@
 
         &__link{
             // color: white;
-            font-size:5vw;     
+            font-size:4vw;     
         }
 
         &__p{
@@ -117,7 +121,7 @@
         }
         &__list {
             left: 9vw;
-            bottom: -2vw;
+            bottom: -6vw;
             width: 30vw;
         }
         &__h1{
@@ -149,14 +153,15 @@
         }
         &__list{
             left: 9vw;
-            bottom: 1vw;
+            bottom: 0vw;
             width: 25vw;
-            font-size: 0.9rem;
+            // font-size: 0.8rem;
             
         }
         &__link{
-            font-size: rem;
+            font-size: 1rem;
         }
+
         &__h1{
             // padding: 13vw;
             
@@ -164,7 +169,7 @@
         }
         &__p{
             right: 5vw;
-            bottom: 1vw;
+            bottom: 2vw;
             font-size: .9rem;
            
         }
